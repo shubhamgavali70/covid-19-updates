@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import World from "./components/World";
 import India from "./components/India";
 import Maharashtra from "./components/Maharashtra";
+import Statewise from "./components/Statewise";
 import { makeStyles } from "@material-ui/core/styles";
 import DistrictState from "./components/DistrictState";
 import Bounce from "react-reveal/Bounce";
@@ -53,16 +54,17 @@ const App = () => {
           direction="row"
           justify="center"
           alignItems="center"
+          alignContent="center"
           spacing={3}
           className={classes.custom}
         >
-          <Grid item xs={10} xl={3} md={6}>
+          <Grid item xs={10} xl={3} md={3}>
             <World />
           </Grid>
-          <Grid item xs={10} xl={3} md={6}>
+          <Grid item xs={10} xl={3} md={3}>
             <India />
           </Grid>
-          <Grid item xs={10} xl={3} md={6}>
+          <Grid item xs={10} xl={3} md={3}>
             <Maharashtra />
           </Grid>
         </Grid>
@@ -70,6 +72,11 @@ const App = () => {
       <Slide left>
         <Grid item xl={12} className={classes.tab}>
           <DistrictState />
+        </Grid>
+      </Slide>
+      <Slide left>
+        <Grid item xl={12} className={classes.tab}>
+          <Statewise />
         </Grid>
       </Slide>
     </div>
