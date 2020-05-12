@@ -11,15 +11,15 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 345,
     textAlign: "center",
-    background: "linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)",
+    background: "#ffffff",
     border: 0,
     borderRadius: 3,
     boxShadow: "0 5px 5px grey",
-    color: "black",
+    color: "#E74292",
   },
   abc: {
     fontFamily: "Archivo Black",
-    color: "white",
+    color: "black",
   },
   pqr: {
     fontFamily: "Archivo Black",

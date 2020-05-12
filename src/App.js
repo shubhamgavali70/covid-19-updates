@@ -29,7 +29,8 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     marginTop: 30,
     fontSize: "4rem",
-    color: "#0A79DF",
+    color: "#E74292",
+
     textShadow: "0 5px 5px grey",
   },
   tab: {
@@ -44,7 +45,7 @@ const App = () => {
       <LightSpeed left>
         <Grid container direction="row" justify="center" alignItems="center">
           <Grid item xs={12} xl={6} md={6}>
-            <h1 className={classes.heading}>Stay updated..</h1>
+            <h1 className={classes.heading}>COVID-19 Stats</h1>
           </Grid>
         </Grid>
       </LightSpeed>

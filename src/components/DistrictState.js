@@ -12,7 +12,7 @@ import Paper from "@material-ui/core/Paper";
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
-    backgroundColor: "#2196F3",
+    backgroundColor: "#E74292",
     color: theme.palette.common.white,
     fontSize: 18,
     fontFamily: "Archivo Black",
@@ -26,7 +26,7 @@ const StyledTableCell = withStyles((theme) => ({
 const StyledTableRow = withStyles((theme) => ({
   root: {
     "&:nth-of-type(odd)": {
-      background: "linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)",
+      background: "linear-gradient(45deg, #ffffff 30%, lightgrey 100%)",
     },
   },
 }))(TableRow);
